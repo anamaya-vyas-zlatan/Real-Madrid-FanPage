@@ -1,14 +1,16 @@
 import React from 'react'
-
-import {Stack } from '@mui/material'
+import {Stack} from '@mui/material'
+// import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className= 'first-name'style={{top: '160px', left:'120px', }}>
+    <div className= 'navbar'>
       <Stack direction ="column">
-      <a href =  "/" style={{color: 'white', fontSize: '20px'}} >Home</a>
-      <a href =  "/" style={{color: 'white', fontSize: '20px'}} >Home</a>
-      <a href =  "/" style={{color: 'white', fontSize: '20px'}} >Home</a>
+        <a href="/" className="navlink">CALENDAR</a>
+        <a href="/" className="navlink">TEAM</a>
+        <a href="/" className="navlink">TROPHIES</a>
+        <a href="/" className="navlink">TRANSFERS</a>
+        <a href="/" className="navlink">HOME</a>
       </Stack>
     </div>
   )
