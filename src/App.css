@@ -2,11 +2,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body{
     background-color: black;
+    box-sizing: border-box;
 }
 .home-page .home-image {
   width: 100%;
@@ -29,9 +29,8 @@ body{
     position: fixed;
     margin-top: 30px;
     margin-left: 90%;
-    width: 50px;
     height: 50px;
-    background-color: inherit;
+    /* background-color: white; */
 }
 .navbar{
     position: fixed;
@@ -40,10 +39,105 @@ body{
 }
 .navbar .navlink{
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     font-weight: 900;
 }
 .navbar a:hover{
     color: #D79B26;
 }
+.home-title{
+    color: white;
+    display: inline-block;
+    position: fixed;
+    margin-top: 22%;
+    margin-left: 5%;
+    /* border: 1px solid #D79B26; */
+}
+.home-title .titlebox{
+    /* background-color: ; */
+    width: 350px;
+    height: 350px;
+}
+.home-title h3{
+    font-size: 2.5rem;
+    padding: 20px;
+    color: #D79B26;
+    font-weight: 900;
+}
+.home-title p{
+    width: 75%;
+    padding-left: 20px;
+    font-weight: 100;
+}
+.home-title button{
+    margin: 20px;
+    width: 84px;
+    height: 25px;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 1px;
+    background-color: #D79B26;
+    color: white;
+    border-radius: 5px;
+}
+.home-info{
+    width: 500px;
+}
+.home-info .container {
+    position: relative;
+    top: 390px;
+    left: 152%;
+  }
+  
+  .home-info .box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .home-info .box1 {
+    /* background-color: red; */
+    color: white;
+    bottom: 20px;
+    width: 250px;
+    height: 250px;
+    transform: translate(-50%, -70%);
+    top: 50%;
+    left: 50%;
+    border: 5px solid #D79B26;
+  }
+  .home-info .box1 h2, .home-info .box1 p{
+    padding: 15px;
+  }
+  .home-info .box1 p{
+    padding-bottom: 0px;
+    font-weight: 100;
+  }
+  .home-info .box2 {
+    /* background-color: blue; */
+    color: white;
+    width: 275px;
+    height: 185px;
+    transform: translate(-20%, 20%);
+    top: 50%;
+    left: 50%;
+    border: 5px solid #D79B26;
+  }
+  
+  .home-info .box3 {
+    /* background-color: green; */
+    background-color: #D79B26;
+    color: white;
+    transform: translate(-160%, 25%);
+    top: 50%;
+    left: 50%;
+    padding-left: 10px;
+  }
+  .home-info .box3 h3{
+    margin: 10px 0;
+  }
+  .home-info .footy-logo{
+    width: 50px;
+    height: 50px;
+  }
