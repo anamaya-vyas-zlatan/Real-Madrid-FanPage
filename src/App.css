@@ -19,6 +19,16 @@
   opacity: 1;
   background-color: black;
 }
+
+  .trophies-page .trophies-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 1));
+    opacity: 1;
+    background-color: black;
+}
+
 .home-page .header{
     position: fixed;
     margin-top: 30px;
@@ -28,6 +38,7 @@
     font-size: 1.7rem;
     margin-bottom: 50px;
 }
+
 .home-page .logo{
     position: fixed;
     margin-top: 30px;
@@ -51,12 +62,27 @@
     color: #D79B26;
 }
 /* Anamaya Code */
-.Caraousel {
-    width: 50%;
-    margin: 10rem auto;
-    height: 570px;
-  }
-  
+
+ .CarouselContainer{
+  display: flex;
+  align-items: center;
+   padding-top: 13%;
+  margin-left: 5%; 
+ } 
+
+ .Carousel{
+width: 50%;
+overflow: hidden;
+ }
+
+ .trophies-page {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+/* Code */
   .slide img {
     width: 20rem;
     margin: 0 auto;
@@ -65,16 +91,19 @@
   .slide {
     transform: scale(0.2);
     transition: transform 300ms;
-    opacity: 0.5;
+    opacity: 0.3;
   }
   
   .activeSlide {
-    transform: scale(1.1);
+    transform: scale(1);
     opacity: 1;
+    width: 100%;
   }
   
   .arrow {
-    background-color: #fff;
+    /* background-color: #fff; */
+    color: #fff; /* Set the arrow color to white */
+    font-size: 40px; /* Increase the arrow size */
     position: absolute;
     cursor: pointer;
     z-index: 10;
@@ -85,7 +114,7 @@
   }
   
   .arrow svg:hover {
-    color: #68edff;
+    color: #f7ff60;
   }
   
   .next {
@@ -97,3 +126,4 @@
     left: 0%;
     top: 50%;
   }
+
