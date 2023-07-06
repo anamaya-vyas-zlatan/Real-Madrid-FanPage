@@ -1,9 +1,9 @@
 import React from 'react';
 import bgImage from '../assets/luka.png';
 import logo from '../assets/logo4.png';
-import Navbar from '../components/Navbar';
-import HomeTitle from '../components/HomeTitle';
-import HomeInfo from '../components/HomeInfo';
+import Navbar from '../components/Navbar/Navbar';
+import HomeTitle from '../components/Home/HomeTitle';
+import HomeInfo from '../components/Home/HomeInfo';
 
 const Home = () => {
   return (

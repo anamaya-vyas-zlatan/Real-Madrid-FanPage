@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Carousel from '../components/Carousel';
+import Carousel from '../components/Trophies/Carousel';
 import { trophiesList } from '../constants/trophiesFile';
-import NextArrow from '../components/NextArrow';
-import PrevArrow from '../components/PrevArrow';
-import TrophyDescription from '../components/TrophyDescription';
+import NextArrow from '../components/Trophies/NextArrow';
+import PrevArrow from '../components/Trophies/PrevArrow';
+import TrophyDescription from '../components/Trophies/TrophyDescription';
 import trophiesWallpaper from '../assets/trophiesWallpaper.png';
 
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar/Navbar';
 
 const Trophies = () => {
   const [imageIndex, setImageIndex] = useState(0);

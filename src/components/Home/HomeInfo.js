@@ -1,4 +1,4 @@
-import footy from '../assets/Football.png';
+import footy from '../../assets/Football.png';
 
 const HomeInfo = () => {
     return ( 
